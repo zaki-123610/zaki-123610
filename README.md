@@ -47,4 +47,19 @@ Currently learning AI engineering through Hugging Face & LLMs, and deepening Rea
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=zaki-123610&theme=tokyonight&hide_bo
+  <img src="https://streak-stats.demolab.com/?user=zaki-123610&theme=tokyonight&hide_border=true" />
+</p>
+
+---
+
+## Get in Touch
+
+<a href="https://github.com/zaki-123610">
+  <img src="https://img.shields.io/badge/GitHub-zaki--123610-181717?style=flat-square&logo=github" />
+</a>
+
+---
+
+<p align="center">
+  <sub>📌 check pinned repos below &nbsp;·&nbsp; ⭐ if something helped</sub>
+</p>
