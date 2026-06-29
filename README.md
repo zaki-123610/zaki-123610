@@ -96,16 +96,14 @@ Computer Science student at **USTHB**, building real-world projects beyond the c
 ## 📊 GitHub Activity
 
 <!-- ⚠️ Remplace "zaki-123610" par ton vrai username GitHub dans les 3 liens ci-dessous -->
-<div align="center">
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=zaki-123610&show_icons=true&theme=tokyonight&hide_border=true" height="160" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zaki-123610&layout=compact&theme=tokyonight&hide_border=true" height="160" />
+</p>
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=zaki-123610&show_icons=true&hide_border=true&title_color=5B53F0&icon_color=5B53F0&text_color=16161A&bg_color=FBFBFA" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zaki-123610&layout=compact&hide_border=true&title_color=5B53F0&text_color=16161A&bg_color=FBFBFA" />
-
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=zaki-123610&hide_border=true&ring=5B53F0&fire=5B53F0&currStreakLabel=5B53F0&background=FBFBFA&dates=76767E&sideLabels=16161A&currStreakNum=16161A&sideNums=16161A" height="165" />
-
-</div>
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=zaki-123610&theme=tokyonight&hide_border=true" />
+</p>
 
 ---
 
