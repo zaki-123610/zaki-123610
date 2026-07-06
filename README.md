@@ -41,7 +41,7 @@ Computer Science student at **USTHB**, building real-world projects beyond the c
 - 🔭 Currently building **full-stack apps** — Node · Express · Prisma · PostgreSQL
 - 🤖 Going deep on **AI engineering** — LLMs, Hugging Face & prompt engineering
 - ⚛️ Sharpening my **React** craft
-- 🌐 Portfolio → **[portfolio-nine-rust-74.vercel.app](https://www.zakariasb.com)**
+- 🌐 Portfolio → **[https://www.zakariasb.com](https://www.zakariasb.com)**
 
 > _"I build to learn, and learn to build — turning curiosity into things that ship."_
 
