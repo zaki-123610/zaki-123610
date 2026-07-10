@@ -121,7 +121,7 @@ Computer Science student at **USTHB**, building real-world projects beyond the c
 
 <br/>
 
-<sub>Built by Zakaria Sabi · 2026 — thanks for scrolling 👋</sub>
+<sub>Built by Zakaria Sabi · 2026 — thanks for scrolling . 👋</sub>
 
 <img src="https://komarev.com/ghpvc/?username=zaki-123610&style=flat-square&color=5B53F0&label=Profile+views" />
 
