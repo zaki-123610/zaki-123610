@@ -34,7 +34,7 @@
 
 ---
 
-## 👋 About me
+## 👋 About me:
 
 Computer Science student at **USTHB**, building real-world projects beyond the curriculum. I learn a tool by shipping something real with it — from REST APIs and databases to AI-powered apps .
 
@@ -47,7 +47,7 @@ Computer Science student at **USTHB**, building real-world projects beyond the c
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack:
 
 **Languages**
 
