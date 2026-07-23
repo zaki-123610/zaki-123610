@@ -99,7 +99,7 @@ Computer Science student at **USTHB**, building real-world projects beyond the c
 
 ---
 
-## 📊 GitHub Activity
+## 📊 GitHub Activity:
 
 <!-- ⚠️ Remplace "zaki-123610" par ton vrai username GitHub dans les 3 liens ci-dessous -->
 <p align="center">
@@ -113,7 +113,7 @@ Computer Science student at **USTHB**, building real-world projects beyond the c
 
 ---
 
-## 📫 Contact
+## 📫 Contact:
 
 <div align="center">
 
