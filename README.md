@@ -51,36 +51,7 @@ Computer Science student at **USTHB**, building production-grade projects beyond
 
 ---
 
-## 🚀 Featured Projects
 
-### 🧠 RAG-SaaS — Multi-tenant RAG platform
-Documents in, grounded answers out. Full multi-tenant SaaS: upload → chunk → embed → retrieve → answer, with JWT auth, per-user chatbots and an **embeddable widget** (Shadow DOM) any site can drop in.
-- **93.8% hit rate** on a custom cross-lingual (FR/EN) evaluation harness
-- `FastAPI` · `pgvector on Neon` · `Jina Embeddings API` · `gpt-oss-120b` · `React` · `JWT`
-<!-- TODO : liens --> [Code](#) · [Live demo](#)
-
-### 🔍 Repo Analyst Agent — hand-coded agentic loop
-An LLM agent that explores a GitHub repo and explains it. **No LangChain** — the tool-calling loop is written from scratch: 3 tools (`list_files`, `read_file`, `get_package_info`), `MAX_ITERATIONS` guard, `tool_call_id` matching, hardened JSON parsing, SSE streaming to the UI.
-- 4 documented system-prompt iterations to kill hallucination & lazy behavior
-- `Node.js` · `Express` · `Groq / llama-3.3-70b` · `SSE` · `React + Vite`
-<!-- TODO : liens --> [Code](#) · [Live demo](#)
-
-### 📰 AI News Tracker — Telegram bot
-Fetches AI news from RSS feeds on a cron schedule, summarizes each item with an LLM, dedupes against PostgreSQL, and pushes to Telegram.
-- `Node.js` · `rss-parser` · `Groq` · `node-cron` · `Neon PostgreSQL` · `Express`
-<!-- TODO : liens --> [Code](#)
-
-### 📚 Bibliostack — book tracking app
-Full-stack CRUD app with server-side rendering, sessions persisted in PostgreSQL and a production deployment.
-- `Node.js` · `Express` · `EJS` · `PostgreSQL` · `connect-pg-simple` · `Render`
-<!-- TODO : liens --> [Code](#) · [Live demo](#)
-
-### 🛠️ AI Dev Tools — Code Review Agent · Commit Generator · API Doc Generator
-Three developer utilities powered by LLMs, each with its own prompt design and output parsing layer.
-- `Node.js` · `Express` · `React` · `Groq` · `Render / Vercel`
-<!-- TODO : liens --> [Code](#) · [Live demo](#)
-
----
 
 ## 🛠️ Tech Stack
 
