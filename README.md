@@ -1,110 +1,135 @@
 <!--
   ╔══════════════════════════════════════════════════════════════╗
   ║  PROFIL GITHUB — ZAKARIA SABI                                 ║
-  ║  → Mets ce fichier dans un repo qui porte EXACTEMENT ton      ║
-  ║    nom d'utilisateur GitHub (ex: repo "zaki-123610"),         ║
-  ║    nommé README.md. GitHub l'affichera sur ton profil.       ║
-  ║  → Remplace "zaki-123610" ci-dessous par TON username réel.  ║
+  ║  → Repo nommé EXACTEMENT comme ton username (zaki-123610),   ║
+  ║    fichier README.md à la racine.                             ║
+  ║  → À REMPLIR : les liens marqués <!-- TODO --> ci-dessous.    ║
   ╚══════════════════════════════════════════════════════════════╝
 -->
 
 <div align="center">
 
 <!-- TYPING ANIMÉ -->
-<a href="https://portfolio-nine-rust-74.vercel.app/">
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=30&duration=2600&pause=900&color=5B53F0&center=true&vCenter=true&width=620&lines=Hi%2C+I'm+Zakaria+Sabi+%F0%9F%91%8B;Full-Stack+Developer;AI+Engineering+Student;Builder+of+real+projects" alt="typing" />
+<a href="https://www.zakariasb.com">
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=30&duration=2600&pause=900&color=5B53F0&center=true&vCenter=true&width=620&lines=Hi%2C+I'm+Zakaria+Sabi+%F0%9F%91%8B;AI+Engineering+Student;RAG+%C2%B7+Agents+%C2%B7+LLM+Apps;Full-Stack+Developer;Builder+of+real+projects" alt="typing" />
 </a>
 
 <p>
-  <code>// L2 Computer Science · USTHB, Algiers</code>
+  <code>// Computer Science · USTHB, Algiers</code>
 </p>
 
-<!-- BADGE STATUT -->
-<img src="https://img.shields.io/badge/Open_to-opportunities_&_collabs-10B981?style=flat-square&labelColor=16161A" />
+<!-- BADGES STATUT -->
+<img src="https://img.shields.io/badge/Open_to-AI_Engineering_internships-10B981?style=flat-square&labelColor=16161A" />
 &nbsp;
-<a href="https://portfolio-nine-rust-74.vercel.app/">
+<a href="https://www.zakariasb.com">
   <img src="https://img.shields.io/badge/Portfolio-↗-5B53F0?style=flat-square&labelColor=16161A" />
 </a>
 &nbsp;
+<!-- TODO : remplace par ton vrai lien LinkedIn -->
+<a href="https://www.linkedin.com/in/TON-PROFIL/">
+  <img src="https://img.shields.io/badge/LinkedIn-↗-0A66C2?style=flat-square&labelColor=16161A&logo=linkedin&logoColor=white" />
+</a>
+&nbsp;
 <a href="mailto:zakijaki612@gmail.com">
-  <img src="https://img.shields.io/badge/Email-zakijaki612@gmail.com-5B53F0?style=flat-square&labelColor=16161A&logo=gmail&logoColor=white" />
+  <img src="https://img.shields.io/badge/Email-↗-5B53F0?style=flat-square&labelColor=16161A&logo=gmail&logoColor=white" />
 </a>
 
 </div>
 
 ---
 
-## 👋 About me:
+## 👋 About me
 
-Computer Science student at **USTHB**, building real-world projects beyond the curriculum. I learn a tool by shipping something real with it — from REST APIs and databases to AI-powered apps .
+Computer Science student at **USTHB**, building production-grade projects beyond the curriculum. I learn a tool by shipping something real with it — from REST APIs and databases to RAG pipelines and autonomous agents.
 
-- 🔭 Currently building **full-stack apps** — Node · Express · Prisma · PostgreSQL.
-- 🤖 Going deep on **AI engineering** — LLMs, Hugging Face & prompt engineering.
-- ⚛️ Sharpening my **React** craft.
+- 🤖 Building **AI systems that ship** — RAG, agentic tool-calling loops, LLM app architecture.
+- 🐍 **Python / FastAPI** for AI backends · **Node / Express** for full-stack.
+- 📊 Obsessed with **evaluation** — if I can't measure it, I don't claim it works.
 - 🌐 Portfolio → **[zakariasb.com](https://www.zakariasb.com)**
 
 > _"I build to learn, and learn to build — turning curiosity into things that ship."_
 
 ---
 
-## 🛠️ Tech Stack:
+## 🚀 Featured Projects
+
+### 🧠 RAG-SaaS — Multi-tenant RAG platform
+Documents in, grounded answers out. Full multi-tenant SaaS: upload → chunk → embed → retrieve → answer, with JWT auth, per-user chatbots and an **embeddable widget** (Shadow DOM) any site can drop in.
+- **93.8% hit rate** on a custom cross-lingual (FR/EN) evaluation harness
+- `FastAPI` · `pgvector on Neon` · `Jina Embeddings API` · `gpt-oss-120b` · `React` · `JWT`
+<!-- TODO : liens --> [Code](#) · [Live demo](#)
+
+### 🔍 Repo Analyst Agent — hand-coded agentic loop
+An LLM agent that explores a GitHub repo and explains it. **No LangChain** — the tool-calling loop is written from scratch: 3 tools (`list_files`, `read_file`, `get_package_info`), `MAX_ITERATIONS` guard, `tool_call_id` matching, hardened JSON parsing, SSE streaming to the UI.
+- 4 documented system-prompt iterations to kill hallucination & lazy behavior
+- `Node.js` · `Express` · `Groq / llama-3.3-70b` · `SSE` · `React + Vite`
+<!-- TODO : liens --> [Code](#) · [Live demo](#)
+
+### 📰 AI News Tracker — Telegram bot
+Fetches AI news from RSS feeds on a cron schedule, summarizes each item with an LLM, dedupes against PostgreSQL, and pushes to Telegram.
+- `Node.js` · `rss-parser` · `Groq` · `node-cron` · `Neon PostgreSQL` · `Express`
+<!-- TODO : liens --> [Code](#)
+
+### 📚 Bibliostack — book tracking app
+Full-stack CRUD app with server-side rendering, sessions persisted in PostgreSQL and a production deployment.
+- `Node.js` · `Express` · `EJS` · `PostgreSQL` · `connect-pg-simple` · `Render`
+<!-- TODO : liens --> [Code](#) · [Live demo](#)
+
+### 🛠️ AI Dev Tools — Code Review Agent · Commit Generator · API Doc Generator
+Three developer utilities powered by LLMs, each with its own prompt design and output parsing layer.
+- `Node.js` · `Express` · `React` · `Groq` · `Render / Vercel`
+<!-- TODO : liens --> [Code](#) · [Live demo](#)
+
+---
+
+## 🛠️ Tech Stack
 
 **Languages**
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
-**Frontend**
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![GSAP](https://img.shields.io/badge/GSAP-0AE448?style=for-the-badge&logo=greensock&logoColor=black)
-![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-
-**Backend**
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-005571?style=for-the-badge&logo=fastapi&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
-![EJS](https://img.shields.io/badge/EJS-B4CA65?style=for-the-badge&logo=ejs&logoColor=black)
-
-**Databases**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Neon](https://img.shields.io/badge/Neon-00E599?style=for-the-badge&logo=postgresql&logoColor=white)
-
-**AI & APIs**
+**AI Engineering**
 
 ![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logo=groq&logoColor=white)
-![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-5B53F0?style=for-the-badge&logo=openai&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-
-
-
-
-![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
-
-
-
-
-![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B6B?style=for-the-badge)
-
-
-
-
 ![RAG](https://img.shields.io/badge/RAG-4B32C3?style=for-the-badge)
+![pgvector](https://img.shields.io/badge/pgvector-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B6B?style=for-the-badge)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![MCP](https://img.shields.io/badge/Model_Context_Protocol-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-5B53F0?style=for-the-badge&logo=openai&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 
+**Backend**
 
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-005571?style=for-the-badge&logo=fastapi&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
+![EJS](https://img.shields.io/badge/EJS-B4CA65?style=for-the-badge&logo=ejs&logoColor=black)
 
+**Frontend**
 
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![GSAP](https://img.shields.io/badge/GSAP-0AE448?style=for-the-badge&logo=greensock&logoColor=black)
+![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)
+
+**Databases & Deployment**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Neon](https://img.shields.io/badge/Neon-00E599?style=for-the-badge&logo=postgresql&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 **Tools & Workflow**
@@ -114,15 +139,12 @@ Computer Science student at **USTHB**, building real-world projects beyond the c
 ![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![Anaconda](https://img.shields.io/badge/Anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white)
-![Antigravity](https://img.shields.io/badge/Antigravity-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![Telegram Bot API](https://img.shields.io/badge/Telegram_Bot-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
 
 ---
 
-## 📊 GitHub Activity:
+## 📊 GitHub Activity
 
-<!-- ⚠️ Remplace "zaki-123610" par ton vrai username GitHub dans les 3 liens ci-dessous -->
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=zaki-123610&show_icons=true&theme=tokyonight&hide_border=true" height="160" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zaki-123610&layout=compact&theme=tokyonight&hide_border=true" height="160" />
@@ -134,17 +156,18 @@ Computer Science student at **USTHB**, building real-world projects beyond the c
 
 ---
 
-## 📫 Contact:
+## 📫 Contact
 
 <div align="center">
 
 [![Email](https://img.shields.io/badge/zakijaki612@gmail.com-5B53F0?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zakijaki612@gmail.com)
-[![Phone](https://img.shields.io/badge/+213_555_340_730-16161A?style=for-the-badge&logo=whatsapp&logoColor=white)](tel:+213555340730)
-[![Portfolio](https://img.shields.io/badge/My_Portfolio-5B53F0?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-nine-rust-74.vercel.app/)
+<!-- TODO : remplace par ton vrai lien LinkedIn -->
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/TON-PROFIL/)
+[![Portfolio](https://img.shields.io/badge/zakariasb.com-5B53F0?style=for-the-badge&logo=vercel&logoColor=white)](https://www.zakariasb.com)
 
 <br/>
 
-<sub>Built by Zakaria Sabi · 2026 — thanks for scrolling . 👋</sub>
+<sub>Built by Zakaria Sabi · 2026 — thanks for scrolling. 👋</sub>
 
 <img src="https://komarev.com/ghpvc/?username=zaki-123610&style=flat-square&color=5B53F0&label=Profile+views" />
 
