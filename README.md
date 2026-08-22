@@ -51,8 +51,6 @@ Computer Science student at **USTHB**, building production-grade projects beyond
 
 ---
 
-
-
 ## 🛠️ Tech Stack
 
 **Languages**
@@ -103,6 +101,13 @@ Computer Science student at **USTHB**, building production-grade projects beyond
 ![Neon](https://img.shields.io/badge/Neon-00E599?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
+**Testing & CI/CD**
+
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
+![TestClient](https://img.shields.io/badge/TestClient-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-5B53F0?style=for-the-badge)
 
 **Tools & Workflow**
 
