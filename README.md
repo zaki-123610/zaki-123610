@@ -42,8 +42,8 @@
 
 Computer Science student at **USTHB**, building production-grade projects beyond the curriculum. I learn a tool by shipping something real with it — from REST APIs and databases to RAG pipelines and autonomous agents.
 
-- 🤖 Building **AI systems that ship** — RAG, agentic tool-calling loops, LLM app architecture.
-- 🐍 **Python / FastAPI** for AI backends · **Node / Express** for full-stack.
+- 🤖 Building **AI systems that ship** — RAG, agentic tool-calling loops , LLM app architecture.
+- 🐍 **Python / FastAPI** for AI backends · **Node  /  Express** for full-stack.
 - 📊 Obsessed with **evaluation** — if I can't measure it, I don't claim it works.
 - 🌐 Portfolio → **[zakariasb.com](https://www.zakariasb.com)**
 
