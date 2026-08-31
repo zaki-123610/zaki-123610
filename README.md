@@ -46,7 +46,8 @@ Computer Science student at **USTHB**, building production-grade projects beyond
 - 🐍 **Python / FastAPI** for AI backends · **Node  /  Express** for full-stack.
 - 📊 Obsessed with **evaluation** — if I can't measure it, I don't claim it works.
 - 🌐 Portfolio → **[zakariasb.com](https://www.zakariasb.com)**
-
+- 🔬 I measure what I build — hit rate, latency, cost — and I report
+  the results that don't go my way.
 > _"I build to learn, and learn to build — turning curiosity into things that ship."_
 
 ---
