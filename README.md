@@ -13,7 +13,7 @@
 <a href="https://www.zakariasb.com">
   <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=30&duration=2600&pause=900&color=5B53F0&center=true&vCenter=true&width=620&lines=Hi%2C+I'm+Zakaria+Sabi+%F0%9F%91%8B;AI+Engineering+Student;RAG+%C2%B7+Agents+%C2%B7+LLM+Apps;Full-Stack+Developer;Builder+of+real+projects" alt="typing" />
 </a>
-
+ 
 <p>
   <code>// Computer Science · USTHB, Algiers</code>
 </p>
